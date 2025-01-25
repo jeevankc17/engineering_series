@@ -1,4 +1,4 @@
-{
+export default{
   "1.-concept-of-basic-electrical-and-electronics-engineering": "1. Concept-of-basic-electrical-and-electronics-engineering",
   "2.-digital-logic-and-microprocessor": "2. Digital-logic-and-microprocessor",
   "3.-programming-language-and-its-applications": "3. Programming-language-and-its-applications",
