@@ -1,0 +1,981 @@
+# set-2
+
+#### 51. Let $$L$$ be set of strings from alphabet. The Kleen closure of $$L$$ is given as
+
+1. $$L' = \bigcup_{i=0} L^i$$
+2. $$L^+ = \bigcup_{i=1} L^i$$
+3. $$L' = \bigcup_{i=0} L^i$$
+4. $$L^+ = \bigcup_{i=1} L^i$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$L' = \bigcup_{i=0} L^i$$
+
+**Explanation:**
+
+* The Kleene closure of $$L$$ is defined as $$L' = \bigcup_{i=0} L^i$$.
+
+</details>
+
+#### 52. If a source language supports some macro pre-processor functions then these functions can be implemented in
+
+1. Lexical analysis phase
+2. Code generation
+3. Parsing
+4. Syntax analysis phase
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. Lexical analysis phase
+
+**Explanation:**
+
+* Macro pre-processor functions are typically implemented in the lexical analysis phase.
+
+</details>
+
+#### 53. If $$e1$$ and $$e2$$ are the regular expressions denoting the language $$L1$$ and $$L2$$ respectively, then which of the following is wrong?
+
+1. $$\{e_1\} + \{e_2\}$$ is regular expression denoting $$L1 \cup L2$$
+2. $$e2 e3$$ regular expression denoting $$L1L2$$
+3. $$\emptyset$$ is not regular expression
+4. $$\{e_1\}^*$$ is regular expression denoting $$L^*$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$\emptyset$$ is not regular expression
+
+**Explanation:**
+
+* The empty set $$\emptyset$$ is a valid regular expression.
+
+</details>
+
+#### 54. The regular expression $$(a + b)^*$$ denotes all strings
+
+1. With zero or more instances of $$a$$ and $$b$$ both simultaneously
+2. With one or more instances of $$a$$ and $$b$$
+3. Equal to regular expression $$(a^* + b)^*$$
+4. Any combination of $$a$$'s and $$b$$'s including null string
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. Any combination of $$a$$'s and $$b$$'s including null string
+
+**Explanation:**
+
+* The regular expression $$(a + b)^*$$ denotes any combination of $$a$$'s and $$b$$'s, including the null string.
+
+</details>
+
+#### 55. Every CFG can be transferred into equivalent
+
+1. Greiback normal form
+2. Either (a) or (b)
+3. CNF
+4. All of the above
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. All of the above
+
+**Explanation:**
+
+* Every context-free grammar (CFG) can be converted into Greibach Normal Form (GNF) or Chomsky Normal Form (CNF).
+
+</details>
+
+#### 56. Consider the following regular expression
+
+$$R = (ab + abb)^*$$\
+Which of the following is not in $$R$$?
+
+1. Ababab
+2. Abbab
+3. Abababbbab
+4. Abbabbbab
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. Ababab
+
+**Explanation:**
+
+* The string $$ababab$$ does not fit the pattern $$(ab + abb)^*$$.
+
+</details>
+
+#### 57. In the figure shown, a DFA $$m$$ has start state $$A$$ and accepting state $$D$$. Which of the following regular expression denoted the set of all words accepted by $$m$$?
+
+1. 001
+2. $$(0 + 1)^* 011$$
+3. $$10^* 1^* 0$$
+4. $$1^* 0^* 001$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. $$(0 + 1)^* 011$$
+
+**Explanation:**
+
+* The regular expression $$(0 + 1)^* 011$$ matches the language accepted by the DFA.
+
+</details>
+
+#### 58. Which of the following is most general phase-structured grammar?
+
+1. Regular
+2. Context-free
+3. Context-sensitive
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. Context-sensitive
+
+**Explanation:**
+
+* Context-sensitive grammars are the most general phase-structured grammars.
+
+</details>
+
+#### 59. Context-free grammar can be recognized by
+
+1. Finite state automation
+2. 2-way linear bounded automata
+3. Push down automata
+4. Both (B) and (C) above
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. Both (B) and (C) above
+
+**Explanation:**
+
+* Context-free grammars can be recognized by pushdown automata and 2-way linear bounded automata.
+
+</details>
+
+#### 60. Context sensitive grammar (CSG) can be recognized by
+
+1. Finite state automata
+2. Push down automata
+3. 2-way linear bounded automata
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. 2-way linear bounded automata
+
+**Explanation:**
+
+* Context-sensitive grammars are recognized by 2-way linear bounded automata.
+
+</details>
+
+#### 61. Consider the grammar $$G$$, where the productions are numbered as shown
+
+1. $$E \rightarrow E + T$$
+2. $$E \rightarrow T$$
+3. $$T \rightarrow T^* F$$
+4. $$T \rightarrow F$$
+5. $$F \rightarrow e$$
+6. $$F \rightarrow a$$
+
+If a shift-reduce (bottom-up) parser writes the production number used immediately after performing any reduction, what will be printed if the parser input is $$a + a * a$$?
+
+1. 62461
+2. 6262441
+3. 64642331
+4. 64264631
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. 6262441
+
+**Explanation:**
+
+* The sequence of reductions for the input $$a + a * a$$ corresponds to the production numbers 6, 2, 6, 2, 4, 4, 1.
+
+</details>
+
+#### 62. Which sentence can be generated by
+
+$$S \rightarrow As/bA$$\
+$$A \rightarrow d/ccA$$
+
+1. Becddd
+2. abbbd
+3. aabccd
+4. ababccd
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. aabccd
+
+**Explanation:**
+
+* The string $$aabccd$$ can be generated by the given grammar.
+
+</details>
+
+#### 63. Which of the following recognizes variables prefixes of the grammar?
+
+1. DFA
+2. NFA
+3. Both errors can be detected
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. DFA
+
+**Explanation:**
+
+* A Deterministic Finite Automaton (DFA) can recognize variable prefixes of the grammar.
+
+</details>
+
+#### 64. Dynamic errors can be detected
+
+1. Only at compile time
+2. Only at run time
+3. Both at compile time and at run time
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. Only at run time
+
+**Explanation:**
+
+* Dynamic errors are detected during the execution (run time) of the program.
+
+</details>
+
+#### 65. Compiler is a software which converts
+
+1. High level language program into low level language program
+2. Source program into object program
+3. Program in high level language into program in low level language
+4. Program in source language into program in object language
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. Source program into object program
+
+**Explanation:**
+
+* A compiler converts the source program into an object program.
+
+</details>
+
+#### 66. The language $$L = \{a^n b^m c^n b^m / n \geq 1, m \geq 1\}$$.
+
+1. Is a context free
+2. Both (a) and (b)
+3. Is not context free
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. Is not context free
+
+**Explanation:**
+
+* The language $$L$$ is not context-free as it requires matching counts of $$a$$'s, $$b$$'s, and $$c$$'s.
+
+</details>
+
+#### 67. The language $$L = \{0n 1n 2n \text{ where } n > 0\}$$ is a
+
+1. CFL
+2. Context-sensitive language
+3. Regular language
+4. Recursive enumerable language
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. Context-sensitive language
+
+**Explanation:**
+
+* The language $$L$$ is context-sensitive as it requires matching counts of $$0$$'s, $$1$$'s, and $$2$$'s.
+
+</details>
+
+#### 68. Which of the choice in an operator grammar equivalent for
+
+$$S \rightarrow SAS/a$$\
+$$A \rightarrow bSb/b$$\
+Assume $$S$$ is start symbol
+
+1. $$S \rightarrow SAS/a, A \rightarrow bSb/b$$
+2. $$S \rightarrow SbAbS/a, A \rightarrow b$$
+3. $$S \rightarrow SbSbS/SbS/a$$
+4. $$S \rightarrow SbS/b$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$S \rightarrow SbSbS/SbS/a$$
+
+**Explanation:**
+
+* The grammar $$S \rightarrow SbSbS/SbS/a$$ is equivalent to the given operator grammar.
+
+</details>
+
+#### 69. Let $$S$$ and $$T$$ be language over $$\Sigma = \{a, b\}$$ represent by regular expression $$(a + b^*) *$$ and $$(a + b)^*$$ respectively then
+
+1. $$S \subset T$$
+2. $$T \subset S$$
+3. $$S = T$$
+4. $$S \cap T = 0$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$S = T$$
+
+**Explanation:**
+
+* The regular expressions $$(a + b^*) *$$ and $$(a + b)^*$$ are equivalent.
+
+</details>
+
+#### 70. Let $$L$$ denote the language generated by the grammar $$S \rightarrow 050100$$ then
+
+1. $$L = 0^*$$
+2. $$L$$ is regular but not $$0^*$$
+3. $$L$$ is context free but not regular
+4. $$L$$ is not context free
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$L$$ is context free but not regular
+
+**Explanation:**
+
+* The language $$L$$ generated by the grammar is context-free but not regular.
+
+</details>
+
+#### 71. Consider the regular expression $$(0 + 1) (0 + 1)^*$$......n times. The minimum state finite automation that recognizes the language represented by this regular expression contains
+
+1. $$n$$ states
+2. $$n + 2$$ states
+3. $$n + 1$$ states
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$n + 1$$ states
+
+**Explanation:**
+
+* The minimum state finite automaton for the regular expression $$(0 + 1) (0 + 1)^*$$ repeated $$n$$ times requires $$n + 1$$ states.
+
+</details>
+
+#### 72. A grammar that is both left and right recursive for non-terminal is
+
+1. Ambiguous
+2. Information is not sufficient
+3. Unambiguous
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. Ambiguous
+
+**Explanation:**
+
+* A grammar that is both left and right recursive for a non-terminal is ambiguous.
+
+</details>
+
+#### 73. If the regular set $$A$$ is represented by $$A = (01 + 1)^*$$ and the regular set $$B$$ represented by $$B = [(01)^* 1^*]$$ then
+
+1. $$A \subset B$$
+2. $$A$$ and $$B$$ are uncomparable
+3. $$B \subset A$$
+4. $$A = B$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. $$A = B$$
+
+**Explanation:**
+
+* The regular sets $$A$$ and $$B$$ are equivalent.
+
+</details>
+
+#### 74. Which of the following can be recognized by a DFA
+
+1. The number 1, 2, 4 ......$$x^n$$......written in binary
+2. The number 1, 2, 4, ......$$x^n$$......written in un binary
+3. The set of binary strings in which the number of zeros is the same as the number of ones
+4. The set $$\{1, 101, 11011, 1110111 ...\}$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. The number 1, 2, 4 ......$$x^n$$......written in binary
+
+**Explanation:**
+
+* A DFA can recognize the set of numbers written in binary.
+
+</details>
+
+#### 75. The string 1101 does not belong to the set represented by
+
+1. $$110'(0+1)$$
+2. $$(10)^* (01)^* (00 + 11)^*$$
+3. $$1(0 + 1)^* 101$$
+4. $$[00+(11)^* 0]$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. $$(10)^* (01)^* (00 + 11)^*$$
+
+**Explanation:**
+
+* The string 1101 does not fit the pattern $$(10)^* (01)^* (00 + 11)^*$$.
+
+</details>
+
+#### 76. Regarding the power of recognition of language, which of the following statements is false?
+
+1. The NDFA is equivalent to DFA
+2. NPDA is equivalent to DPDA
+3. Non-deterministic Turing machines are equivalent to deterministic push-down automata
+4. Multi-tape Turing-machine are equivalent to Single-Tape Turing machine
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. Non-deterministic Turing machines are equivalent to deterministic push-down automata
+
+**Explanation:**
+
+* Non-deterministic Turing machines are more powerful than deterministic push-down automata.
+
+</details>
+
+#### 77. Let $$*$$ be defined as $$a * b = a + y$$. Let $$c = a * b$$; value of $$c * a$$ is
+
+1. $$a + b$$
+2. $$a$$
+3. $$0$$
+4. $$1$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. $$a$$
+
+**Explanation:**
+
+* The operation $$c * a$$ results in $$a$$.
+
+</details>
+
+#### 78. Which one of the following regular expressions over $$\{0, 1\}$$ denotes the set of all string not containing 100 as a substring?
+
+1. $$0' (1 + 0)$$
+2. $$1' 01$$
+3. $$0' 1010$$
+4. $$0' (10 + 1)$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. $$0' (10 + 1)$$
+
+**Explanation:**
+
+* The regular expression $$0' (10 + 1)$$ ensures that the substring 100 is not present.
+
+</details>
+
+#### 79. Which of the following languages over $$\{a, b, c\}$$ is accepted by deterministic push down automata?
+
+1. $$\{\omega \subset \omega^b / \omega \in (a, b)\}$$
+2. $$\{\omega \omega^b / \omega \in \{a, b, c\}\}$$
+3. $$\{a^b c^m / n \geq 0\}$$
+4. $$\{\omega / \omega \text{ is palindrome } \{a, b, c\}\}$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. $$\{\omega \subset \omega^b / \omega \in (a, b)\}$$
+
+**Explanation:**
+
+* The language $$\{\omega \subset \omega^b / \omega \in (a, b)\}$$ is accepted by a deterministic pushdown automaton.
+
+</details>
+
+#### 80. Two of following four regular expressions are equivalent, which two?
+
+1. $$(00)^* (\epsilon + 0)$$
+2. $$(00)^*$$
+3. $$0^*$$
+4. $$0(00)^*$$
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. $$(00)^*$$ and 3. $$0^*$$
+
+**Explanation:**
+
+* The regular expressions $$(00)^*$$ and $$0^*$$ are equivalent.
+
+</details>
+
+#### 81. The major difference between a Moore and Mealy machine is that
+
+1. The output of the former depends only on the present state and present input
+2. The output of the former depends only on the present state
+3. The output of the former depends only on the present input
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. The output of the former depends only on the present state
+
+**Explanation:**
+
+* In a Moore machine, the output depends only on the present state, while in a Mealy machine, it depends on both the present state and input.
+
+</details>
+
+#### 82. Finite state machine can recognize
+
+1. Any grammar
+2. Any unambiguous grammar
+3. Only CG
+4. Only regular grammar
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. Only regular grammar
+
+**Explanation:**
+
+* Finite state machines can recognize only regular grammars.
+
+</details>
+
+#### 83. Pumping Lemma is generally used for proving
+
+1. A given grammar is regular
+2. A given grammar is not regular
+3. Whether two given regular expressions are equivalent or not
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. A given grammar is not regular
+
+**Explanation:**
+
+* The Pumping Lemma is used to prove that a language is not regular.
+
+</details>
+
+#### 84. Which of the following is not regular?
+
+1. String of 0's whose length is a perfect square
+2. Set of all palindrome made up of 0's and 1's
+3. Set of all 0's whose length is prime
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. All of these
+
+**Explanation:**
+
+* None of the given languages are regular.
+
+</details>
+
+#### 85. Choose the correct statements
+
+1. $$A = \{a^n b^n / n = 0, 1, 2, 3, \ldots\}$$ is regular language
+2. The set $$B$$ of all strings of equal number of $$a$$'s and $$b$$'s defines a regular language
+3. $$L(A^* B^*) \cap B$$ gives the set $$A$$
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. None of these
+
+**Explanation:**
+
+* None of the statements are correct regarding regular languages.
+
+</details>
+
+#### 86. The basic limitations of finite state machine is that
+
+1. It cannot remember arbitrary large amount of information
+2. It cannot recognize grammars are regular
+3. It sometimes recognize grammars are not regular
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. It cannot remember arbitrary large amount of information
+
+**Explanation:**
+
+* Finite state machines have limited memory and cannot remember arbitrarily large amounts of information.
+
+</details>
+
+#### 87. Palindrome cannot be recognized by any FSM because
+
+1. An FSM can't remember arbitrary information
+2. An FSM can't deterministically fix the mid point
+3. Both (A) and (B)
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. Both (A) and (B)
+
+**Explanation:**
+
+* Finite state machines cannot recognize palindromes due to their inability to remember arbitrary information and fix the mid-point.
+
+</details>
+
+#### 88. An FSM can be considered to be a TM (Turing machine)
+
+1. Of finite tape length, rewinding capability and unidirectional tape movement
+2. Of finite tape length, without rewinding and unidirectional tape movement
+3. Of finite tape length, rewinding capability and bidirectional tape movement
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. Of finite tape length, without rewinding and unidirectional tape movement
+
+**Explanation:**
+
+* A finite state machine can be considered a Turing machine with finite tape length, no rewinding, and unidirectional tape movement.
+
+</details>
+
+#### 89. Turing machine is more powerful than FSM because
+
+1. Tape movement is confined to one direction
+2. It has no finite state control
+3. It has the capability to remember arbitrary long sequence of input symbols
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. It has the capability to remember arbitrary long sequence of input symbols
+
+**Explanation:**
+
+* Turing machines are more powerful due to their ability to remember arbitrarily long sequences of input symbols.
+
+</details>
+
+#### 90. For given picture the FSM recognizes
+
+1. All strings
+2. $$\epsilon$$-alone
+3. No strings
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. $$\epsilon$$-alone
+
+**Explanation:**
+
+* The FSM recognizes only the empty string $$\epsilon$$.
+
+</details>
+
+#### 91. In given picture, the FSM represents
+
+1. Mealy machine
+2. Kleen machine
+3. Moore machine
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. Mealy machine
+
+**Explanation:**
+
+* The FSM represents a Mealy machine as its output depends on both the current state and input.
+
+</details>
+
+#### 92. The language of all words with at least $$2a$$'s can be described by the regular expression:
+
+1. $$(ab)^*a$$ and $$a(ba)^*$$
+2. $$b^*a^*b^*a(a + b)^*$$
+3. $$(a + b)^*ab^*a(a + b)^*$$
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. All of these
+
+**Explanation:**
+
+* All the given regular expressions describe the language of words with at least $$2a$$'s.
+
+</details>
+
+#### 93. Which of the following pairs of regular expressions are not equivalent?
+
+1. $$(ab)^*a$$ and $$a(ba)^*$$
+2. $$b^*a^*b^*a(a + b)^*$$
+3. $$(a + b)^*ab^*a(a + b)^*$$
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. $$b^*a^*b^*a(a + b)^*$$
+
+**Explanation:**
+
+* The regular expression $$b^*a^*b^*a(a + b)^*$$ is not equivalent to the others.
+
+</details>
+
+#### 94. Any given transition graph has an equivalent
+
+1. Regular expression
+2. NDFSM
+3. DFSM
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. All of these
+
+**Explanation:**
+
+* A transition graph can be converted into a regular expression, NDFSM, or DFSM.
+
+</details>
+
+#### 95. The following CFG
+
+$$S \rightarrow aS/bS/a/b$$ is equivalent to regular expression
+
+1. $$(a + b)$$
+2. $$(a + b)(a + b)$$
+3. $$(a + b)(a + b)$$
+4. All of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$(a + b)(a + b)$$
+
+**Explanation:**
+
+* The CFG is equivalent to the regular expression $$(a + b)(a + b)$$.
+
+</details>
+
+#### 96. Any string of terminals that can be generated by the following CFG is
+
+$$S \rightarrow XY$$\
+$$X \rightarrow ax/bx/a$$\
+$$Y \rightarrow Ya/Yb/a$$
+
+1. Has at least one 'b'
+2. Has no consecutive $$a$$'s or $$b$$'s
+3. Should end in a 'a'
+4. Has at least two $$a$$'s
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 4. Has at least two $$a$$'s
+
+**Explanation:**
+
+* The CFG generates strings with at least two $$a$$'s.
+
+</details>
+
+#### 97. The following CFG
+
+$$S \rightarrow aB/Ba$$\
+$$A \rightarrow b/aS/Baa$$\
+$$B \rightarrow a/bS/aBB$$\
+Generates strings of terminals that have
+
+1. Equal number of $$a$$'s and $$b$$'s
+2. Odd number of $$a$$'s and odd number of $$b$$'s
+3. Even number of $$a$$'s and even number of $$a$$'s
+4. Odd number of $$a$$'s and even number of $$a$$'s
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. Equal number of $$a$$'s and $$b$$'s
+
+**Explanation:**
+
+* The CFG generates strings with an equal number of $$a$$'s and $$b$$'s.
+
+</details>
+
+#### 98. The set $$\{a^n b^n / n = 1, 2, 3, \ldots\}$$ can be generated by the CFG
+
+1. $$S \rightarrow ab/aSb$$
+2. $$S \rightarrow ab/aSb/\epsilon$$
+3. $$S \rightarrow aaSbb/ab$$
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 1. $$S \rightarrow ab/aSb$$
+
+**Explanation:**
+
+* The CFG $$S \rightarrow ab/aSb$$ generates the set $$\{a^n b^n / n = 1, 2, 3, \ldots\}$$.
+
+</details>
+
+#### 99. Choose the correct statement
+
+1. All language can be generated CFG
+2. Any regular language has an equivalent CFG
+3. Some non-regular languages can't be generated by an CFG
+4. Some regular language can't be simulated by an FSM
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 2. Any regular language has an equivalent CFG
+
+**Explanation:**
+
+* Every regular language can be represented by a context-free grammar (CFG).
+
+</details>
+
+#### 100. Which of the following CFG's can't be simulated by an FSM?
+
+1. $$S \rightarrow Sa/a$$
+2. $$S \rightarrow abX, X \rightarrow cY, Y \rightarrow a/aX$$
+3. $$S \rightarrow aSb/ab$$
+4. None of these
+
+<details>
+
+<summary>Show me the answer</summary>
+
+**Answer:** 3. $$S \rightarrow aSb/ab$$
+
+**Explanation:**
+
+* The CFG $$S \rightarrow aSb/ab$$ generates a non-regular language and cannot be simulated by an FSM.
+
+</details>
