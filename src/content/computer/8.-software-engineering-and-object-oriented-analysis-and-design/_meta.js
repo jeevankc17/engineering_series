@@ -1,4 +1,4 @@
-{
+export default {
   "README": "README",
   "8.1-software-process-and-requirements": "8.1-software-process-and-requirements",
   "8.2-software-design": "8.2-software-design",

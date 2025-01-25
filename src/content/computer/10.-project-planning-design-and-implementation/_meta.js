@@ -1,4 +1,4 @@
-{
+export default{
   "README": "README",
   "10.1-engineering-drawings-and-its-concepts": "10.1-engineering-drawings-and-its-concepts",
   "10.2-engineering-economics": "10.2-engineering-economics",

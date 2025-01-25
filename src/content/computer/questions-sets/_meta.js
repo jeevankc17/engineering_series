@@ -1,4 +1,4 @@
-{
+export default{
   "set-1-chaitra-2080":"set-1-chaitra-2080",
   "set-2-aasadh-2081":"set-2-aasadh-2081",
   "set-3-asojh-2080":"set-3-asojh-2080",

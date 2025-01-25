@@ -1,4 +1,4 @@
-{
+export default{
   "README": "README",
   "3.1-introduction-to-c-programming": "3.1-introduction-to-c-programming",
   "3.2-pointers-structures-and-data-files": "3.2-pointers-structures-and-data-files",

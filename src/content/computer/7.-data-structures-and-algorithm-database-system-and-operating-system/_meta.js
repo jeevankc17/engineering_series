@@ -1,4 +1,4 @@
-{
+export default {
   "README": "README",
   "7.1-introduction-to-data-structures-lists-linked-lists-and-trees": "7.1-introduction-to-data-structures-lists-linked-lists-and-trees",
   "7.2-sorting-searching-hashing-and-graphs": "7.2-sorting-searching-hashing-and-graphs",

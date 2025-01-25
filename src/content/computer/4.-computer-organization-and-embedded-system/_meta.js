@@ -1,4 +1,4 @@
-{
+export default{
     "README": "README",
   "4.1-control-and-cpu": "4.1-control-and-cpu",
   "4.2-computer-arithmetic-and-memory-system": "4.2-computer-arithmetic-and-memory-system",

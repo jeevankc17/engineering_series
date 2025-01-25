@@ -1,4 +1,4 @@
-{
+export default{
   "README": "README",
   "6.1-introduction-to-finite-automata": "6.1-introduction-to-finite-automata",
   "6.2-introduction-to-context-free-languages-cfl": "6.2-introduction-to-context-free-languages-cfl",

@@ -1,4 +1,4 @@
-{
+export default{
   "README": "README",
   "1.1-basic-concepts": "1.1-basic-concepts",
   "1.2-network-theorems": "1.2-network-theorems",

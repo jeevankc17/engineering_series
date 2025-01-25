@@ -1,4 +1,4 @@
-{
+export default{
   "README": "README",
   "2.1-digital-logic": "2.1-digital-logic",
   "2.2-combinational-and-arithmetic-circuit": "2.2-combinational-and-arithmetic-circuit",

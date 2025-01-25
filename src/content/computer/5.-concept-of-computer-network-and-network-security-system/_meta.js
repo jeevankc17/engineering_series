@@ -1,4 +1,4 @@
-{
+export default {
   "README": "README",
   "5.1-introduction-to-computer-networks": "5.1-introduction-to-computer-networks",
   "5.2-data-link-layer": "5.2-data-link-layer",

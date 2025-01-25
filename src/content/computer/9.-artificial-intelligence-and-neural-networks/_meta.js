@@ -1,4 +1,4 @@
-{
+export default{
   "README": "README",
   "9.1-introduction-to-ai-and-intelligent-agents": "9.1-introduction-to-ai-and-intelligent-agents",
   "9.2-problem-solving-and-searching-techniques": "9.2-problem-solving-and-searching-techniques",
