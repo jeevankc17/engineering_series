@@ -5,7 +5,18 @@ import { NextConfig } from "next";
 import nextra from "nextra";
 
 const withNextra = nextra({
-  latex: true,
+  latex: {
+    renderer: 'mathjax',
+    options: {
+      config: {
+        tex: {
+          macros: {
+            RR: '\\mathbb{R}'
+          }
+        }
+      }
+    }
+  },
   defaultShowCopyCode: true,
   contentDirBasePath: "/docs",
 });
