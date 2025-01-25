@@ -8,8 +8,8 @@
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "npm run build",
-    "vercel-dev": "npm run dev"
+    "vercel-build": "next build",
+    "vercel-dev": "next dev"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.0",
