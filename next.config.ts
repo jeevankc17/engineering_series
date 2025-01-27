@@ -6,14 +6,10 @@ import nextra from "nextra";
 
 const withNextra = nextra({
   latex: {
-    renderer: 'mathjax',
+    renderer: 'katex',
     options: {
-      config: {
-        tex: {
-          macros: {
-            RR: '\\mathbb{R}'
-          }
-        }
+      macros: {
+        '\\RR': '\\mathbb{R}'
       }
     }
   },
@@ -22,7 +18,7 @@ const withNextra = nextra({
 });
 
 const nextConfig: NextConfig = withNextra({
-  reactStrictMode: true,
+  reactStrictMode: false,
 });
 
 export default nextConfig;
