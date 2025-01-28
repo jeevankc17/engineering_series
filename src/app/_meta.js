@@ -3,9 +3,17 @@ const meta = {
     type: "page",
     title: "Home",
   },
-  docs: {
+  license: {
     type: "page",
-    title: "Documentation",
+    title: "License",
+  },
+  masters: {
+    type: "page",
+    title: "Masters",
+  },
+  loksewa: {
+    type: "page",
+    title: "Loksewa",
   },
 };
 

@@ -1,3 +1,3 @@
 export default {
-  'computer' : ''
+  'computer' : '',
 }

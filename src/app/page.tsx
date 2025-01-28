@@ -7,14 +7,14 @@ export const metadata: Metadata = {
 };
 
 const disciplines = [
-  { name: 'Computer', path: 'docs/computer' },
-  { name: 'Civil', path: 'docs/civil' },
-  { name: 'Mechanical', path: 'docs/mechanical' },
-  { name: 'Electrical', path: 'docs/electrical' },
-  { name: 'Electronics', path: 'docs/electronics' },
-  { name: 'Architecture', path: 'docs/architecture' },
-  { name: 'Agriculture', path: 'docs/agriculture' },
-  { name: 'Aerospace', path: 'docs/aerospace' },
+  { name: 'Computer', path: 'license/computer' },
+  { name: 'Civil', path: 'license/civil' },
+  { name: 'Mechanical', path: 'license/mechanical' },
+  { name: 'Electrical', path: 'license/electrical' },
+  { name: 'Electronics', path: 'license/electronics' },
+  { name: 'Architecture', path: 'license/architecture' },
+  { name: 'Agriculture', path: 'license/agriculture' },
+  { name: 'Aerospace', path: 'license/aerospace' },
 ]
 
 export default function HomePage() {
