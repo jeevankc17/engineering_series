@@ -4,8 +4,18 @@ const meta = {
     title: "Home",
   },
   license: {
-    type: "page",
-    title: "License",
+    title: 'License',
+    type: 'menu',
+    items: {
+      computer: {
+        title: 'Computer',
+        href: '/license/computer'
+      },
+      civil: {
+        title: 'Civil',
+        href: '/license/civil/intro/page'
+      }
+    }
   },
   masters: {
     type: "page",
