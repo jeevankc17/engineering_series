@@ -1,0 +1,10 @@
+{
+    "README": "README",
+  "4.1-control-and-cpu": "4.1-control-and-cpu",
+  "4.2-computer-arithmetic-and-memory-system": "4.2-computer-arithmetic-and-memory-system",
+  "4.3-i-o-organization-and-multiprocessor": "4.3-i-o-organization-and-multiprocessor",
+  "4.4-embedded-system-design": "4.4-embedded-system-design",
+  "4.5-real-time-operating-and-control-systems": "4.5-real-time-operating-and-control-systems",
+  "4.6-hardware-description-language-vhdl-and-ic-technology": "4.6-hardware-description-language-vhdl-and-ic-technology",
+  "mcqs": "MCQs"
+}

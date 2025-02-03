@@ -18,7 +18,7 @@ const withNextra = nextra({
     },
   },
   defaultShowCopyCode: true,
-  contentDirBasePath: "/license",
+  contentDirBasePath: "/",
 });
 
 const nextConfig: NextConfig = withNextra({
