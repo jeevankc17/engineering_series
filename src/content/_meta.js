@@ -1,12 +1,12 @@
-export default {
+export default{
     "index": {
-      "type": "page",
-      "title": "Home",
-      theme: {
-        layout: 'full'
-      }
-    },
-    "license": {
+        "type": "page",
+        "title": "Home",
+        theme: {
+          layout: 'full'
+        }
+      },
+      "license": {
       "title": "License",
       "type": "menu",
       "items": {
@@ -48,5 +48,4 @@ export default {
         }
       }
     }
-  }
-  
+}
