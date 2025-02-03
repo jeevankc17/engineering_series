@@ -1,0 +1,10 @@
+export default {
+    "computer": {
+      "title": "Computer",
+      "type": "page"
+    },
+    "civil": {
+      "title": "Civil",
+      "type": "page"
+    },
+  }
